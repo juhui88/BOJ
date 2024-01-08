@@ -8,10 +8,6 @@ for _ in range(k):
     coor = list(map(int,input().split()))
     coordinate.append(coor)
 
-board = [[0]*(m+1) for _ in range(n+1)]
-for coor in coordinate:
-    board[coor[0]][coor[1]] = 1
-
 result = []
 
 for a in range(k):
