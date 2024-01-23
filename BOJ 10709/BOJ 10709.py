@@ -1,7 +1,7 @@
 import sys
 from collections import deque
-input = sys.stdin.readlines
-sys.setrecursionlimit(10**6)
+# input = sys.stdin.readlines
+# sys.setrecursionlimit(10**6)
 
 h,w = map(int,input().split())
 
